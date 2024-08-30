@@ -1,2 +1,2 @@
-# portifolio
-tentativa de criar curriculo
+# Portifolio
+Tentativa de criar curriculo
