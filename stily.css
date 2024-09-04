@@ -5,29 +5,35 @@
 }
 /*variaveis*/
 :root {
-  --body-bg-color: #22212C;
-  --text-color: #837E9F;
-  --bg-cards: #302F3D;
-  --bg-techs: #CB92B1;
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
 }
 
-body{
+body {
   background-color: var(--body-bg-color);
   height: 100vh;
-    font-family: Merriweather Sans;
-    font-optical-sizing: auto;
-  }
+  font-family: Merriweather Sans;
+  font-optical-sizing: auto;
+}
 /* todo texto*/
-  .conteiner {
-    
-    width: 100%;
-    max-width: 570;
-    color: var(--text-color)
-  }
-  
-  /* profile*/
-  #profile {
-    
+.conteiner {
+  width: 100%;
+  max-width: 570;
+  color: var(--text-color);
+}
+#left {
+  display: inline;
+  width: 300px;
+  background-color: bisque;
+  border: solid 1px red;
+}
+#right {
+  display: inline;
+} que negocios vermelhos e verdes s
+/* profile*/
+#profile{
   background-color: var(--bg-cards);
   border-radius: 15px;
   margin-left: 0;
@@ -39,13 +45,15 @@ body{
 }
 /*image*/
 .main-image {
-
   margin: auto;
   border: solid 1px blue;
   border-radius: 50%;
   width: 40%;
 }
 /* profile text*/
+#profile {
+  border: solid 1px blue;
+}
 #profile h1 {
   text-align: center;
   font-weight: 700;
@@ -55,7 +63,11 @@ body{
   font-weight: 500;
 }
 /* links */
-#links ul{
+#links {
+  border: solid 1px green;
+  width: 70%;
+}
+#links ul {
   margin-top: 25px;
   background-color: var(--bg-cards);
   border-radius: 15px;
@@ -75,3 +87,19 @@ body{
   padding: 10px 40px;
 }
 /*corrija a cor depois*/
+
+/* correçao do tec*/
+#tec {
+  border: solid 1px yellow;
+}
+#tec p {
+  border: solid 1 px red;
+  display: flex;
+  gap: 12px 10px;
+  flex-direction: row;
+}
+#my-project {
+  border: solid 1px pink;
+  text-align: right;
+  margin-top: 0px;
+}
