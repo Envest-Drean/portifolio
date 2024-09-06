@@ -28,7 +28,7 @@ body {
 .leftContainer {
     display: inline-block;
     width: 350px;
-    background-color: rgb(255, 140, 0);
+    background-color: var(--body-bg-color)
     border: solid 1px rgb(255, 0, 242);
 }
 .rightContainer {
@@ -82,19 +82,34 @@ body {
 
 /* Correçao do Tec */
 #tec {
+    margin: top px;
     width: 100%;
     border: solid 1px yellow;
+    background-color: var(--bg-cards);
+    border-radius: 15px;
 }
 #tecGrid {
     display: flex;
     flex-flow: wrap;
+    gap: 18px;
 }
 #tec p {
-    border: solid 1px red;
+    margin-top: 5px;
+    padding: 2%;
     display: flex;
     gap: 12px 10px;
     flex-direction: row;
+    background-color: var(--bg-techs);
+    color: var(--body-bg-color);
+    border-radius: 9999px;
 }
+/* exp */
+#exp a {
+    font-weight: 100;
+}
+
+
+
 
 #my-project {
     border: solid 1px pink;
