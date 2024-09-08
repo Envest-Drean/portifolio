@@ -43,10 +43,11 @@ body {
     border-radius: 15px;
     display: flex;
     flex-flow: column;
-    width: 100%;
+    width: 348px;
     height: 292px;
     padding-bottom: 10px;
     text-align: center;
+    margin-top: 32px;
 }
 #profile img {
     margin: auto;
@@ -64,29 +65,31 @@ body {
 /* Links */
 #profileList {
     border: solid 1px green;
-    margin-top: 25px;
+    margin-top: 32px;
     background-color: var(--bg-cards);
     border-radius: 15px;
-    width: 100%;
+    width: 348px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     list-style: none;
+    margin-bottom: 32px;
 }
 
 #profileList li {
+    margin-left: 36px;
     display: flex;
-    padding: 10px 40px;
+    padding: 10px;
 }
 /* TODO: Corrija a cor depois de ajeitar o svg */
 
 /* Correçao do Tec */
 #tec {
-    margin: top px;
     width: 100%;
     border: solid 1px yellow;
     background-color: var(--bg-cards);
     border-radius: 15px;
+    width: 348px;
 }
 #tecGrid {
     display: flex;
@@ -104,15 +107,56 @@ body {
     border-radius: 9999px;
 }
 /* exp */
-#exp a {
+#exp ul li a {
     font-weight: 100;
+    
 }
+#exp {
+    background-color: var(--bg-cards);
+    border-radius: 15px;
+    margin-top: 32px;
+    height: 349px;
+    width: 348px;
+    
+}
+#exp h1 {
+    text-align: center;
+}
+#exp ul li{
+    padding-top: 40px;
+    margin-left: 40px;
+    width: 175px;
 
+    font-weight: 500;
+}
+/* educaçao*/
+#edu {
+    background-color: var(--bg-cards);
+    margin-top: 32px;
+    width: 348px;
+    height: 400px;
+    border-radius: 15px;
+}
+#edu h1{
+    text-align: center;}
+    #edu ul{
+        height: 300px;
+        width: 224px;
+    }
+    #edu ul li {
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+#edu ul li a {
+    font-weight: 100;
 
-
-
+}
 #my-project {
     border: solid 1px pink;
-    text-align: right;
-    margin-top: 0px;
+    background-color: var(--bg-cards);
+    margin: 32px 0px 0px 60px;
+    width: 952px;
+
+    border-radius: 15px;
 }
