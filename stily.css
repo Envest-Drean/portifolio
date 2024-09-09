@@ -153,10 +153,84 @@ body {
 
 }
 #my-project {
-    border: solid 1px pink;
     background-color: var(--bg-cards);
     margin: 32px 0px 0px 60px;
-    width: 952px;
-
+    width: 990px;
+    height: 100px;
     border-radius: 15px;
+    padding-block: 30px;
+}
+#pjAll {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#project-one {
+    width: 480px;
+    height: 157px;
+    margin: 30px 30px 30px 60px;
+    border-radius: 15px;
+    background-color: var(--bg-cards);
+}
+#project-one h1{
+    text-align: left;
+    font-weight: 800;
+}
+#project-one p{
+    margin-top: 12px;
+    text-align: center;
+}
+#text {
+    display: block;
+    position: absolute;
+    top: 65%;
+}
+#project-two {
+    width: 480px;
+    height: 157px;
+    margin: 30px 30px 30px 0px;
+    border-radius: 15px;
+    background-color: var(--bg-cards);
+}
+
+#project-two h1{
+    text-align: left;
+    font-weight: 800;
+}
+#project-two p{
+    margin-top: 12px;
+    text-align: center;
+}
+#text1 {
+    display: block;
+    position: absolute;
+    top: 65%;
+}
+/* postes */
+#recent-post h1{
+    margin: 32px 0px 0px 60px;
+    background-color: var(--bg-cards);
+    width: 990px;
+    height: 100px;
+    padding-block: 30px;
+    margin: auto;
+    border-radius: 15px;
+}
+#post {
+    margin: 32px 0px 0px 60px;
+    width: 990px;
+    border-radius: 15px;
+    background-color: var(--bg-cards);
+}
+#post a{
+    display: block;
+}
+#post p{
+    border: solid;
+    display: flex;
+    display: inline;
+}
+
+footer {
+    text-align: center;
 }
